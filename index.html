@@ -5,9 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Meu Perfil</title>
+    <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
-    <ul>
+    <ul id="menu">
         <li>
             <a href="index.html"> Home</a>
         </li>
@@ -17,16 +18,24 @@
     </ul>
 
 
-    <h1>Sobre a Juliana</h1>
-
-    <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi ipsa iure ex temporibus similique tenetur hic explicabo optio ea non qui esse, corporis iusto suscipit consequatur quae, ut obcaecati aliquid?
-    </p>
-    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusamus officiis doloremque deleniti, dignissimos quibusdam quaerat cumque dolore cum debitis architecto quam minus in vitae saepe nobis blanditiis consequatur. Pariatur, nobis?
-    </p>
-    <img src="assets/img/foto pessoa.jpg" alt="Foto do criador desse conteúdo">
-
-    <h2> 
+    <h1 class="center"> Sobre a Juliana</h1>
+    <div class = "container">
+        <div>
+            <img class="br-50 wh-300 p-30" src="assets/img/foto summer.jpg" alt="Foto da personagem Summer (Rick and Morty)">
+        </div>
+        <div class="p-30">
+            <p class ="justify">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi ipsa iure ex temporibus similique tenetur hic explicabo optio ea non qui esse, corporis iusto suscipit consequatur quae, ut obcaecati aliquid?
+            </p >
+            <p class="justify">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusamus officiis doloremque deleniti, dignissimos quibusdam quaerat cumque dolore cum debitis architecto quam minus in vitae saepe nobis blanditiis consequatur. Pariatur, nobis?
+            </p>
+        </div>
+    
+    
+    </div>
+    <h2 class="center"> Meu vídeo favorito</h2>
+    <div class="container mb-50" >
         <iframe width="560" 
         height="315" 
         src="https://www.youtube.com/embed/dVjkc1Gp48E" 
@@ -34,6 +43,18 @@
         frameborder="" 
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
         allowfullscreen></iframe>
-    </h2>
+    </div>
+<hr>
+    <footer>
+        <div class="container">
+            <a href="https://www.linkedin.com/in/juliana-inocencio/">
+                <img class="tm-social" p-30 src="assets/img/linkedin.png" alt="Logo do linkedin">
+            </a>
+        </div>
+
+        Todos os direitos reservados: Juliana Inocencio &copy
+    </footer>
+
+
 </body>
 </html>
